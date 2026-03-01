@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>obaseki.io</title>
+    <link>http://localhost:1313/obaseki.io/</link>
+    <description>Recent content on obaseki.io</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/obaseki.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/obaseki.io/about/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/obaseki.io/about/</guid>
+      <description>&lt;h2 id=&#34;hi-im-obaseki-semi&#34;&gt;&#xA;  Hi, I&amp;rsquo;m Obaseki Semi&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#hi-im-obaseki-semi&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to my personal website. This is where I share my work, thoughts, and projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/obaseki.io/contact/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/obaseki.io/contact/</guid>
+      <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;&#xA;  Get in Touch&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#get-in-touch&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;You can find me on &lt;a href=&#34;https://github.com/obasekisemi&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/obaseki.io/posts/my-first-post/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/obaseki.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello world! This is my first blog post on obaseki.io. More content coming soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/obaseki.io/projects/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/obaseki.io/projects/</guid>
+      <description>&lt;h2 id=&#34;projects&#34;&gt;&#xA;  Projects&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#projects&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Coming soon.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
