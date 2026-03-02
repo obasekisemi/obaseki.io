@@ -1,4 +1,5 @@
 baseURL = "https://obasekisemi.github.io/obaseki.io/"
+title="obaseki.io"
 description = "forever learning"
 theme = "hugo-coder"
 languageCode = "en"
@@ -17,8 +18,8 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "Obaseki Semi"
-description = "Obaseki Semi's personal website"
+author = "Obaseki"
+description = "Obasekis personal website"
 keywords = "blog,developer,personal"
 dateFormat = "January 2, 2006"
 since = 2025
