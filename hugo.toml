@@ -20,7 +20,6 @@ unsafe = true
 author = "Obaseki Semi"
 description = "Obaseki Semi's personal website"
 keywords = "blog,developer,personal"
-info = ["Developer"]
 dateFormat = "January 2, 2006"
 since = 2025
 colorScheme = "auto"
