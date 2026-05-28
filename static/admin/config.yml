@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
+  site_domain: fantastic-capybara-8556c3.netlify.app
 
 media_folder: static/images
 public_folder: /images
