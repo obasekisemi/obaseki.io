@@ -25,7 +25,7 @@ since = 2025
 colorScheme = "auto"
 hideColorSchemeToggle = false
 uppercaseTitle = false
-avatarURL = "images/images.jpeg"
+avatarURL = "images/image_2.jpeg"
 
 [[params.social]]
 name = "github"
