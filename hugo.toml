@@ -1,5 +1,5 @@
 baseURL = "https://obasekisemi.github.io/obaseki.io/"
-title="obaseki.io"
+title = "obaseki.io"
 description = "forever learning"
 theme = "hugo-coder"
 languageCode = "en"
@@ -12,26 +12,35 @@ pagerSize = 6
 [markup]
 [markup.highlight]
 noClasses = false
-
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
 
 [params]
-author = "forever learning"
-description = "Obasekis personal website"
+author = "Seki Obaseki"
+description = "forever learning"
 keywords = "blog,developer,personal"
 dateFormat = "January 2, 2006"
 since = 2025
 colorScheme = "auto"
 hideColorSchemeToggle = false
+uppercaseTitle = false
+avatarURL = "images/avatar.jpg"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/obasekisemi"
+weight = 1
+
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin.com/in/yourprofile"
+weight = 2
 
 [taxonomies]
 category = "categories"
 series = "series"
 tag = "tags"
-
-
 
 [[menu.main]]
 name = "About"
