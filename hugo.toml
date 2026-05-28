@@ -17,7 +17,7 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "Seki Obaseki"
+author = "Dare Obaseki"
 description = "forever learning"
 keywords = "blog,developer,personal"
 dateFormat = "January 2, 2006"
