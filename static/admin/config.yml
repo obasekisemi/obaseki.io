@@ -2,11 +2,11 @@ backend:
   name: github
   repo: obasekisemi/obaseki.io
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  site_domain: fantastic-capybara-8556c3.netlify.app
+  base_url: https://obaseki-io.pages.dev
+  auth_endpoint: cdn-cgi/access/callback
+  site_domain: obaseki-io.pages.dev
   auth_scope: repo
-
+  
 media_folder: static/images
 public_folder: /images
 
