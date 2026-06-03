@@ -1,4 +1,4 @@
-++ draft = false date = 2026-06-02 title = "Why write"  tags = ["intro"] categories = ["general"] +++
++++ draft = false date = 2026-06-02 title = "Why write" description = "why write article." tags = ["random"] categories = ["general"] +++
 
 
 
