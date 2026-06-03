@@ -2,7 +2,7 @@
 
 
 
-# Why I want to write and I think you should too
+# Why I want to write and I think you should too.
 
 Writing means communicating ideas, thoughts with a structured system of symbols to an audience who can read it if they understand the symbols etc.
 The world is changing and has always been changing, but we are currently at an inflection point where we experience drastatic changes and one has no choice to adapt. I am writing this article to start a process of expressing my thoughts, because as intelligence is being commoditized all that will matter will be live presentations(basically how well you communicate your ideas).
