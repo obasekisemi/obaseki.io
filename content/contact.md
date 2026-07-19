@@ -4,6 +4,9 @@ draft = false
 title = 'Contact'
 +++
 
-## Get in Touch
+## get in touch
 
-You can find me on [GitHub](https://github.com/obasekisemi).
+Always happy to talk — reach me here:
+
+- Email — [obasekisemi@gmail.com](mailto:obasekisemi@gmail.com)
+- GitHub — [@obasekisemi](https://github.com/obasekisemi)

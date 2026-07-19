@@ -1,0 +1,147 @@
+/* ------------------------------------------------------------------
+   obaseki.io — simple monospace / terminal look
+   Courier everywhere, clean single-column, easy to read.
+------------------------------------------------------------------ */
+
+:root {
+  --mono: "Courier New", Courier, "Courier Prime", monospace;
+  --accent: #1565c0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { --accent: #4fc3f7; }
+}
+
+/* Use Courier for the whole site */
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p, a, li, span, div,
+input, button, textarea, blockquote,
+.navigation, .navigation a,
+.footer, .footer a {
+  font-family: var(--mono) !important;
+  letter-spacing: 0.2px;
+}
+
+body {
+  line-height: 1.7;
+}
+
+/* Slightly wider, comfortable reading column */
+.content .container:not(.centered) {
+  max-width: 760px;
+}
+
+/* ---- Headings: terminal-style, lowercase-ish, tight ---- */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.content h1 { font-size: 1.7rem; }
+.content h2 { font-size: 1.35rem; margin-top: 2rem; }
+.content h3 { font-size: 1.1rem; }
+
+/* A little "># " prompt in front of content section headings */
+.content h2::before {
+  content: "> ";
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+/* ---- Homepage hero ---- */
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+.about h2 {
+  font-weight: 400;
+  opacity: 0.85;
+  font-size: 1rem;
+}
+
+/* blinking cursor after the tagline */
+.about h2::after {
+  content: "_";
+  color: var(--accent);
+  animation: blink 1.1s step-end infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Avatar already ships as a circular terminal tile (SVG). Keep it crisp,
+   add a soft glow on hover. */
+.about .avatar img {
+  border-radius: 50%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.about .avatar img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 0 4px rgba(79, 195, 247, 0.15);
+}
+
+/* ---- Links: underline on hover, accent color ---- */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  transition: border-color 0.15s ease;
+}
+a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* ---- Navigation: monospace, roomy ---- */
+.navigation a {
+  text-transform: lowercase;
+}
+.navigation a::before {
+  content: "/";
+  opacity: 0.4;
+  margin-right: 1px;
+}
+
+/* ---- Social icons: gentle hover lift ---- */
+.about .social a,
+.social a {
+  transition: transform 0.15s ease;
+  display: inline-block;
+}
+.about .social a:hover,
+.social a:hover {
+  transform: translateY(-2px);
+}
+
+/* ---- Post list: cleaner spacing ---- */
+.list article {
+  margin-bottom: 1.6rem;
+}
+.list .title {
+  font-size: 1.15rem;
+}
+
+/* ---- Code blocks: keep them boxed and calm ---- */
+pre, code {
+  font-family: var(--mono) !important;
+}
+pre {
+  border-radius: 6px;
+}
+
+/* ---- Blockquotes as terminal notes ---- */
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  opacity: 0.9;
+}
+
+/* ---- Footer: quiet ---- */
+.footer {
+  opacity: 0.75;
+  font-size: 0.85rem;
+}
